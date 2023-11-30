@@ -1,0 +1,1 @@
+add_library(helpers_static sum.cpp)
