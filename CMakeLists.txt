@@ -20,9 +20,10 @@ project(
 )
 
 
-add_subdirectory(first)
-add_subdirectory(second)
+# add_subdirectory(first)
+# add_subdirectory(second)
 add_subdirectory(third)
-add_subdirectory(fourth)
+# add_subdirectory(fourth)
+add_subdirectory(fifth)
 add_subdirectory(opencv_config)
 

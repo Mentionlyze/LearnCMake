@@ -5,7 +5,7 @@
 using namespace cv;
 
 int main() {
-  Mat src = imread("C:/Users/menti/Pictures/463882bdbeb7106f3e9b34c196094da91918644.jpg@!web-comment-note.webp");
+  Mat src = imread("C:/Users/menti/Pictures/pexels-photo-2174974.webp");
   if (src.empty()) {
     printf("No Image");
     return -1;

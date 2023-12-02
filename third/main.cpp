@@ -1,4 +1,4 @@
-#include "sum.hpp"
+#include "sum.h"
 
 int main() {
   auto result = sum(1, 9);
