@@ -1,4 +1,6 @@
-#include "opencv2/opencv.hpp"
+#include <opencv2/opencv.hpp>
+#include "fmt/core.h"
+#include <iostream>
 
 using namespace cv;
 
@@ -14,5 +16,8 @@ int main()
   imshow("Input", src);
   waitKey(0);
   destroyAllWindows();
+
+  fmt::println("Hello OpenCV");
+  std::cout << "A HA" << std::endl;
   return 0;
 }
