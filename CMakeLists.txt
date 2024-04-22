@@ -4,7 +4,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_C_COMPILER clang)
 set(CMAKE_CXX_COMPILER clang++)
 
-set(CMAKE_TOOLCHAIN_FILE "C:/Users/menti/scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake")
+# set(CMAKE_TOOLCHAIN_FILE "C:/Users/menti/scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake")
 # set(CMAKE_MAKE_PROGRAM NINJA)
 set(VCPKG_HOST_TRIPLET "x64-windows")
 set(VCPKG_TARGET_TRIPLET "x64-windows")

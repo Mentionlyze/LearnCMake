@@ -19,7 +19,7 @@ foreach(dir ${OpenCV_INCLUDE_DIRS})
   message(${dir}) 
 endforeach(dir)
 
-  message(${OpenCV_INCLUDE_DIRS})
+message(${OpenCV_INCLUDE_DIRS})
 
 
 
