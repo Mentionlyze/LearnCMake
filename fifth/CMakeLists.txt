@@ -4,4 +4,4 @@ add_subdirectory(minus)
 add_subdirectory(calculator)
 
 add_executable(fifth main.cpp)
-target_link_libraries(fifth calculator)
+target_link_libraries(fifth SmartCalculator)

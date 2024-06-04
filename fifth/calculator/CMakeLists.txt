@@ -1,5 +1,7 @@
-add_library(calculator calculator.cpp)
+set(TARGET_NAME SmartCalculator)
 
-target_link_libraries(calculator PRIVATE sum minus)
+add_library(${TARGET_NAME} calculator.cpp)
 
-target_include_directories(calculator INTERFACE ./)
+target_link_libraries(${TARGET_NAME} PRIVATE sum minus)
+
+target_include_directories(${TARGET_NAME} INTERFACE .)
